@@ -3,7 +3,7 @@ Bash script for automatic website data backup with rclone and Backblaze B2. The 
 
 ## Setup
 1. Create a B2 bucket
-2. Enter your home directory `cd ~`
+2. Enter your home directory `$ cd ~`
 3. Clone the repository with `$ git clone https://github.com/wouterbles/rclone-backup.git`
 4. Run the setup script which downloads and installs rclone with `$ rclone-backup/setup.sh`
 5. The rclone config processs will be opened automatically, select B2 and insert the API keys
