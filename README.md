@@ -16,3 +16,5 @@ Example cron job: `@weekly ~/rclone-backup/script.sh`, for weekly backups and in
 - Add MySQL and other database support
 - Automatically setup cron job
 - Let the user determine their own install location, currently limited to home directory
+- Add backup retention time specified by the user
+- Check compatibility with other remotes (Google Drive, Amazon S3, OneDrive...)
