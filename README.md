@@ -8,6 +8,11 @@ Bash script for automatic website data backup with rclone and Backblaze B2. The 
 4. Run the setup script which downloads and installs rclone with `$ rclone-backup/setup.sh`
 5. The rclone config processs will be opened automatically, select B2 and insert the API keys
 6. Set the bucket name in a `.env` file with `B2_BUCKET_NAME=bucket-name-here`, file should be located in the `rclone-backup` folder
-7. Add a cron-job for `script.sh` with `$ crontab -e`
+7. Add a cron job for `script.sh` with `$ crontab -e`
 
-Example cronjob: `@weekly ~/rclone-backup/script.sh`, for weekly backups and in the case that the repository was cloned to the home directory.
+Example cron job: `@weekly ~/rclone-backup/script.sh`, for weekly backups and in the case that the repository was cloned to the home directory.
+
+## To Do
+- Add MySQL and other database support
+- Automatically setup cron job
+- Let the user determine their own install location, currently limited to home directory
